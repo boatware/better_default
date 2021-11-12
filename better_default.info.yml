@@ -1,0 +1,93 @@
+name: Better Default
+type: profile
+description: 'Drupal Profile extending the default profile by some useful modules and themes'
+core_version_requirement: ^9 || ^10
+
+distribution:
+  name: Better Default
+  install:
+    theme: better_default_install
+
+install:
+  - admin_toolbar
+  - admin_toolbar_tools
+  - automated_cron
+  - basic_auth
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - captcha
+  - ckeditor
+  - color
+  - comment
+  - config
+  - config_translation
+  - consumers
+  - contact
+  - datetime
+  - datetime_range
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - entity_reference_revisions
+  - field
+  - field_ui
+  - file
+  - filter
+  - gin_login
+  - gin_toolbar
+  - help
+  - history
+  - image
+  - image_captcha
+  - jsonapi
+  - language
+  - layout_discovery
+  - layout_paragraphs
+  - link
+  - locale
+  - media
+  - media_library
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - rdf
+  - recaptcha
+  - responsive_image
+  - rest
+  - search
+  - serialization
+  - shortcut
+  - simple_oauth
+  - smtp
+  - statistics
+  - system
+  - taxonomy
+  - telephone
+  - text
+  - toolbar
+  - tour
+  - update
+  - user
+  - views_ui
+  - webform
+  - webform_access
+  - webform_attachment
+  - webform_node
+  - webform_scheduled_email
+  - webform_submission_export_import
+  - webform_submission_log
+  - webform_ui
+  - content_translation
+  - views
+  - paragraphs
+
+themes:
+  - bootstrap
+  - claro
+  - gin

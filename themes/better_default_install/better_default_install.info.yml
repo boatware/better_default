@@ -1,0 +1,8 @@
+name: Better Default Install
+description: 'Installation theme for the better default installation profile'
+type: theme
+core_version_requirement: ^9 || ^10
+base theme: seven
+
+libraries:
+  - better_default_install/global-styles

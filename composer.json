@@ -1,0 +1,38 @@
+{
+    "name": "boatware/better_default",
+    "description": "Drupal Profile extending the default profile by some useful modules and themes",
+    "type": "drupal-profile",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "drupal/core": "9.2.8 - 10.0",
+        "drupal/admin_toolbar": "^3.0",
+        "drupal/bootstrap": "^3.23",
+        "drupal/captcha": "^1.2",
+        "drupal/gin": "^3.0@alpha",
+        "drupal/gin_login": "^1.0",
+        "drupal/layout_paragraphs": "^1.0",
+        "drupal/paragraphs": "^1.12",
+        "drupal/recaptcha": "^3.0",
+        "drupal/simple_oauth": "^5.0",
+        "drupal/smtp": "^1.0",
+        "drupal/webform": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev",
+        "drupal/coder": "dev-8.x-3.x",
+        "drush/drush": "^10.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "boatware",
+            "email": "hi@boatware.dev"
+        }
+    ],
+    "minimum-stability": "dev"
+}

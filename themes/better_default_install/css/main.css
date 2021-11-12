@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost&display=swap');
+body.install-page {
+  background: url(//source.unsplash.com/collection/9407737);
+  font-family: 'Jost', sans-serif;
+}
+
+.install-page .layout-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 10px 32px -16px rgb(0 0 0);
+}
+
+.install-page .task-list .is-active {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ddd;
+}
+
+.install-page .task-list .is-active:after {
+  border-left-color: rgba(0, 0, 0, 0.5);
+  color: #ddd;
+}
+
+.install-page h1 {
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0 3rem 1rem;
+  color: #333;
+}
